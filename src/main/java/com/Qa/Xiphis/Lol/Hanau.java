@@ -14,7 +14,7 @@ static WebDriver driver ;
 	
 	public static void main(String[] args) {
 	
-	ExtentHtmlReporter htmlReporter = new ExtentHtmlReporter("New Extent reports");
+	ExtentHtmlReporter htmlReporter = new ExtentHtmlReporter("ExtentReports.Html");
 
 	
 	ExtentReports extent = new ExtentReports();
